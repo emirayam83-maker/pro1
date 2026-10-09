@@ -1,12 +1,17 @@
-//import React from 'react'
-//import { motion } from "motion/react"
+//import axios from "axios";
+//import { useEffect, useState } from "react";
+import { Card, Header, Footer } from "./components";
+import AllRoutes  from "./routes/AllRoutes";
 function App() {
   return (
-    <div>
-      <p></p>
-    </div>
-  )
+    <>
+          <Header />
+          <Card />
+      <AllRoutes/>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
 
